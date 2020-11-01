@@ -1,3 +1,4 @@
 Orange;4
 Banane;3
 Kiwi;2
+Melone;16

@@ -46,7 +46,6 @@
             this.tbItemName.Name = "tbItemName";
             this.tbItemName.Size = new System.Drawing.Size(167, 22);
             this.tbItemName.TabIndex = 0;
-            this.tbItemName.TextChanged += new System.EventHandler(this.tbItemName_TextChanged);
             // 
             // nudCount
             // 
@@ -60,7 +59,6 @@
             0,
             0,
             0});
-            this.nudCount.ValueChanged += new System.EventHandler(this.nudCount_ValueChanged);
             // 
             // lbProduct
             // 
@@ -70,7 +68,6 @@
             this.lbProduct.Size = new System.Drawing.Size(92, 17);
             this.lbProduct.TabIndex = 2;
             this.lbProduct.Text = "Produktname";
-            this.lbProduct.Click += new System.EventHandler(this.lbProduct_Click);
             // 
             // lbCountOfProduct
             // 
@@ -80,7 +77,6 @@
             this.lbCountOfProduct.Size = new System.Drawing.Size(51, 17);
             this.lbCountOfProduct.TabIndex = 2;
             this.lbCountOfProduct.Text = "Anzahl";
-            this.lbCountOfProduct.Click += new System.EventHandler(this.lbCountOfProduct_Click);
             // 
             // btAdd
             // 
@@ -113,7 +109,7 @@
             this.lbItems.Name = "lbItems";
             this.lbItems.Size = new System.Drawing.Size(300, 196);
             this.lbItems.TabIndex = 4;
-            this.lbItems.SelectedIndexChanged += new System.EventHandler(this.lbItems_SelectedIndexChanged);
+
             // 
             // btExportToCsv
             // 

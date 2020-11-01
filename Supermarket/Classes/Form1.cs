@@ -137,30 +137,5 @@ namespace Supermarket
             WriteTxtFile();
             MessageBox.Show("Einkaufsliste wurde als CSV exportiert");
         }
-
-        private void lbItems_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbCountOfProduct_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbProduct_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void nudCount_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbItemName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
